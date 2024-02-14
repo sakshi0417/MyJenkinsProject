@@ -1,0 +1,18 @@
+Day 57
+DIY
+DIY Questions:While working on Jenkins, you need to download two plugins namely Coberturaand Maven integration while working on Jenkins. Create a job with the Maven project.  In  the  build step,  add  the maven  command  to  generate  the  coverage report and also add post-build steps to convert the coverage.xml file into a code coverage  trend  report.Analyze  the  code  coverage  reports  by  building  the  job again.
+
+Tasks: 1.Start Jenkins Dashboard.
+2.Download a plugin with the name Cobertura
+3.Download plugin with name as Maven integration
+4.Create a job –with project type as–Maven project
+5.Add a java code repository in the Source code management
+6.In the build step add the maven command to generate the coverage report
+7.Build the code and check if the coverage.xml file is generated or not in the workspace
+8.Add post-build steps to convert the coverage.xml file into a code coverage trend report.
+9.Build the job again and observe the Cobertura code coverage report.
+
+Solutions:
+
+
+
